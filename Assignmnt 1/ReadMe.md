@@ -16,6 +16,7 @@
     - evaluate on train and validation
     - fine-tune using train and validation (if necessary)
     - score 3 benchmark models on test data and select the best one
+
 ## Notes
 1. You may download the email spam data from: https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset
 2. You may refer to https://radimrehurek.com/data_science_python/ for building a prototype. 
