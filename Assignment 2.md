@@ -2,11 +2,11 @@
 ## Due 20 Feb 2024
 - Data Version Control
     - [x] In `prepare.ipynb` track the versions of data using `dvc`
-    - [ ] Load the raw data into `raw_data.csv` and save the split data into `train.csv`/`validation.csv`/`test.csv`
+    - [x] Load the raw data into `raw_data.csv` and save the split data into `train.csv`/`validation.csv`/`test.csv`
     - [ ] Update train/validation/test split by choosing different random seed
     - [ ] Checkout the first version (before update) using `dvc` and print the distribution of target variable (number of $0$s and number of $1$s) in `train.csv`, `validation.csv`, and `test.csv`
     - [ ] Checkout the updated version using `dvc` and print the distribution of target variable in `train.csv`, `validation.csv`, `test.csv`
-    - [ ] Bonus: (decouple compute and storage) track the data versions using google drive as storage
+    - [x] Bonus: (decouple compute and storage) track the data versions using google drive as storage
 - Model Version Control and Experiment Tracking
     - [ ] In `train.ipynb` track the experiments and model versions using `mlflow`
     - [ ] Build, track, and register 3 benchmark models using MLflow
