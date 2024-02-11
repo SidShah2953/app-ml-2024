@@ -4,8 +4,8 @@
     - [x] In `prepare.ipynb` track the versions of data using `dvc`
     - [x] Load the raw data into `raw_data.csv` and save the split data into `train.csv`/`validation.csv`/`test.csv`
     - [x] Update train/validation/test split by choosing different random seed
-    - [ ] Checkout the first version (before update) using `dvc` and print the distribution of target variable (number of $0$s and number of $1$s) in `train.csv`, `validation.csv`, and `test.csv`
-    - [ ] Checkout the updated version using `dvc` and print the distribution of target variable in `train.csv`, `validation.csv`, `test.csv`
+    - [x] Checkout the first version (before update) using `dvc` and print the distribution of target variable (number of $0$s and number of $1$s) in `train.csv`, `validation.csv`, and `test.csv`
+    - [x] Checkout the updated version using `dvc` and print the distribution of target variable in `train.csv`, `validation.csv`, `test.csv`
     - [x] Bonus: (decouple compute and storage) track the data versions using google drive as storage
 - Model Version Control and Experiment Tracking
     - [ ] In `train.ipynb` track the experiments and model versions using `mlflow`
