@@ -3,3 +3,8 @@ Distribution in Files before Changing Seed:
 - train.csv - 3044 - 967
 - test.csv - 866 - 279
 - validation.csv - 450 - 122
+Distribution in Files After Changing Seed:
+- [File Name] - [No. of 0's (Ham)] - [No. of 1's (Spam)]
+- train.csv - 3039 - 972
+- test.csv - 866 - 279
+- validation.csv - 455 - 117
