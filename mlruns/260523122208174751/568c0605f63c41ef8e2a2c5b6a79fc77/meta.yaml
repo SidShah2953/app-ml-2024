@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/568c0605f63c41ef8e2a2c5b6a79fc77/artifacts
+end_time: 1708433045688
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 568c0605f63c41ef8e2a2c5b6a79fc77
+run_name: fearless-pug-958
+run_uuid: 568c0605f63c41ef8e2a2c5b6a79fc77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708433031390
+status: 3
+tags: []
+user_id: sidshah

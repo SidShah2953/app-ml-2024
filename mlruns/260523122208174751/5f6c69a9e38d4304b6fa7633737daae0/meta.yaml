@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/5f6c69a9e38d4304b6fa7633737daae0/artifacts
+end_time: 1708433240095
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 5f6c69a9e38d4304b6fa7633737daae0
+run_name: stylish-lamb-897
+run_uuid: 5f6c69a9e38d4304b6fa7633737daae0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708433224560
+status: 3
+tags: []
+user_id: sidshah

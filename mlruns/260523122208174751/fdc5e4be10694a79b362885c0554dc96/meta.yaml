@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/fdc5e4be10694a79b362885c0554dc96/artifacts
+end_time: 1708433175553
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: fdc5e4be10694a79b362885c0554dc96
+run_name: shivering-bird-326
+run_uuid: fdc5e4be10694a79b362885c0554dc96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708433145866
+status: 3
+tags: []
+user_id: sidshah

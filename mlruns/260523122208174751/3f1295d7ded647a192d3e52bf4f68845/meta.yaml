@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/3f1295d7ded647a192d3e52bf4f68845/artifacts
+end_time: 1708433031387
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 3f1295d7ded647a192d3e52bf4f68845
+run_name: rebellious-calf-339
+run_uuid: 3f1295d7ded647a192d3e52bf4f68845
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708433015998
+status: 3
+tags: []
+user_id: sidshah
