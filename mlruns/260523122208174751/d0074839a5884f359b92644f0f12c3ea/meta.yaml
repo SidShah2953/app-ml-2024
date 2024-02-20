@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/d0074839a5884f359b92644f0f12c3ea/artifacts
+end_time: 1708429456812
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: d0074839a5884f359b92644f0f12c3ea
+run_name: gregarious-flea-560
+run_uuid: d0074839a5884f359b92644f0f12c3ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708429439359
+status: 3
+tags: []
+user_id: sidshah

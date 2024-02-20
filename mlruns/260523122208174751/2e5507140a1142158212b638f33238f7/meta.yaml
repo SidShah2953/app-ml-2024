@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/2e5507140a1142158212b638f33238f7/artifacts
+end_time: 1708429506324
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 2e5507140a1142158212b638f33238f7
+run_name: merciful-dove-785
+run_uuid: 2e5507140a1142158212b638f33238f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708429490171
+status: 3
+tags: []
+user_id: sidshah

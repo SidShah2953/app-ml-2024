@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/e284ed1f805c4d728045e912b12b3f7d/artifacts
+end_time: 1708429572636
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: e284ed1f805c4d728045e912b12b3f7d
+run_name: silent-eel-544
+run_uuid: e284ed1f805c4d728045e912b12b3f7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708429540189
+status: 3
+tags: []
+user_id: sidshah

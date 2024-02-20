@@ -8,9 +8,9 @@
     - [x] Checkout the updated version using `dvc` and print the distribution of target variable in `train.csv`, `validation.csv`, `test.csv`
     - [x] Bonus: (decouple compute and storage) track the data versions using google drive as storage
 - Model Version Control and Experiment Tracking
-    - [ ] In `train.ipynb` track the experiments and model versions using `mlflow`
-    - [ ] Build, track, and register 3 benchmark models using MLflow
-    - [ ] Checkout and print AUCPR for each of the three benchmark models
+    - [x] In `train.ipynb` track the experiments and model versions using `mlflow`
+    - [x] Build, track, and register 3 benchmark models using MLflow
+    - [x] Checkout and print AUCPR for each of the three benchmark models
 
 References
 - https://dvc.org/doc/start/data-management/data-versioning

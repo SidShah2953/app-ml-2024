@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/248437e47ef44fdbbc07017ba9bc3acc/artifacts
+end_time: 1708429490169
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 248437e47ef44fdbbc07017ba9bc3acc
+run_name: dapper-bear-84
+run_uuid: 248437e47ef44fdbbc07017ba9bc3acc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708429474016
+status: 3
+tags: []
+user_id: sidshah
