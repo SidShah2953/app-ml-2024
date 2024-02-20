@@ -1,0 +1,8 @@
+matplotlib
+textblob
+pandas
+scikit-learn
+mlflow
+numpy
+dvc
+dvc-gdrive
