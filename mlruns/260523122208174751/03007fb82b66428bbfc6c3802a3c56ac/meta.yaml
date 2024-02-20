@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/03007fb82b66428bbfc6c3802a3c56ac/artifacts
+end_time: 1708425192629
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 03007fb82b66428bbfc6c3802a3c56ac
+run_name: intrigued-snail-492
+run_uuid: 03007fb82b66428bbfc6c3802a3c56ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708425190399
+status: 3
+tags: []
+user_id: sidshah

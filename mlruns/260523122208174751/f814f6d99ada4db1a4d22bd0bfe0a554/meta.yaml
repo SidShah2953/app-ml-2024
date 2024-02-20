@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/f814f6d99ada4db1a4d22bd0bfe0a554/artifacts
+end_time: 1708425201811
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: f814f6d99ada4db1a4d22bd0bfe0a554
+run_name: rebellious-shoat-8
+run_uuid: f814f6d99ada4db1a4d22bd0bfe0a554
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708425200629
+status: 3
+tags: []
+user_id: sidshah

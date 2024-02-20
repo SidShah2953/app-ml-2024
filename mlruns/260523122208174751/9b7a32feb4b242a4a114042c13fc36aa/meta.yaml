@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/9b7a32feb4b242a4a114042c13fc36aa/artifacts
+end_time: 1708425202957
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 9b7a32feb4b242a4a114042c13fc36aa
+run_name: whimsical-koi-199
+run_uuid: 9b7a32feb4b242a4a114042c13fc36aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708425201814
+status: 3
+tags: []
+user_id: sidshah
