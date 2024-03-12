@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/260523122208174751/62c4c5e59cfa464c8b6177e5f4bca6a6/artifacts
+deleted_time: 1710226802635
 end_time: 1708433196623
 entry_point_name: ''
 experiment_id: '260523122208174751'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 62c4c5e59cfa464c8b6177e5f4bca6a6
 run_name: chill-gnu-987
 run_uuid: 62c4c5e59cfa464c8b6177e5f4bca6a6

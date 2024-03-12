@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/260523122208174751/fdc5e4be10694a79b362885c0554dc96/artifacts
+deleted_time: 1710226802646
 end_time: 1708433175553
 entry_point_name: ''
 experiment_id: '260523122208174751'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fdc5e4be10694a79b362885c0554dc96
 run_name: shivering-bird-326
 run_uuid: fdc5e4be10694a79b362885c0554dc96

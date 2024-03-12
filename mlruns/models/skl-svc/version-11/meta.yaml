@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1710227419592
+current_stage: None
+description: ''
+last_updated_timestamp: 1710227419592
+name: skl-svc
+run_id: 04be8f9079bb41c8ad34fc30b04a2272
+run_link: ''
+source: mlflow-artifacts:/260523122208174751/04be8f9079bb41c8ad34fc30b04a2272/artifacts/skl-svc
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/260523122208174751/04be8f9079bb41c8ad34fc30b04a2272/artifacts/skl-svc
+user_id: null
+version: 11

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/260523122208174751/3f1295d7ded647a192d3e52bf4f68845/artifacts
+deleted_time: 1710226802659
 end_time: 1708433031387
 entry_point_name: ''
 experiment_id: '260523122208174751'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3f1295d7ded647a192d3e52bf4f68845
 run_name: rebellious-calf-339
 run_uuid: 3f1295d7ded647a192d3e52bf4f68845

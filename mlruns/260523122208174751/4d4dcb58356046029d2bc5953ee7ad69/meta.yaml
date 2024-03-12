@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/4d4dcb58356046029d2bc5953ee7ad69/artifacts
+end_time: 1710227376159
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 4d4dcb58356046029d2bc5953ee7ad69
+run_name: redolent-sponge-150
+run_uuid: 4d4dcb58356046029d2bc5953ee7ad69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710227354487
+status: 3
+tags: []
+user_id: sidshah

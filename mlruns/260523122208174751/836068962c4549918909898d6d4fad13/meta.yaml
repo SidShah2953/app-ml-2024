@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/260523122208174751/836068962c4549918909898d6d4fad13/artifacts
+deleted_time: 1710226802636
 end_time: 1708433224557
 entry_point_name: ''
 experiment_id: '260523122208174751'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 836068962c4549918909898d6d4fad13
 run_name: wistful-hen-168
 run_uuid: 836068962c4549918909898d6d4fad13

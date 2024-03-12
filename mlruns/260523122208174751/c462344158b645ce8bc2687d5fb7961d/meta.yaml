@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/260523122208174751/c462344158b645ce8bc2687d5fb7961d/artifacts
+deleted_time: 1710226802653
 end_time: 1708433089222
 entry_point_name: ''
 experiment_id: '260523122208174751'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c462344158b645ce8bc2687d5fb7961d
 run_name: youthful-tern-96
 run_uuid: c462344158b645ce8bc2687d5fb7961d

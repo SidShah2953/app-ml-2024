@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/260523122208174751/ac9aecab76b34be499528d3022d4dbd8/artifacts
+deleted_time: 1710226802647
 end_time: 1708433261289
 entry_point_name: ''
 experiment_id: '260523122208174751'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ac9aecab76b34be499528d3022d4dbd8
 run_name: gaudy-fish-563
 run_uuid: ac9aecab76b34be499528d3022d4dbd8

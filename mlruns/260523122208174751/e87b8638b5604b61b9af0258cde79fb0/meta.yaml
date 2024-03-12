@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/260523122208174751/e87b8638b5604b61b9af0258cde79fb0/artifacts
+deleted_time: 1710226802654
 end_time: 1708433118749
 entry_point_name: ''
 experiment_id: '260523122208174751'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e87b8638b5604b61b9af0258cde79fb0
 run_name: bold-sponge-400
 run_uuid: e87b8638b5604b61b9af0258cde79fb0

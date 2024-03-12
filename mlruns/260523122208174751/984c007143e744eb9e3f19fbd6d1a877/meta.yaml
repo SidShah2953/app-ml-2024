@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/984c007143e744eb9e3f19fbd6d1a877/artifacts
+end_time: 1710227267584
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 984c007143e744eb9e3f19fbd6d1a877
+run_name: angry-roo-396
+run_uuid: 984c007143e744eb9e3f19fbd6d1a877
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710227237025
+status: 3
+tags: []
+user_id: sidshah
