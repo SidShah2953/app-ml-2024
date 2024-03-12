@@ -4,7 +4,8 @@ from score import score
 from joblib import load
 import os
 import json
-import pytest
+from coverage import coverage
+
 
 # Load the best model from train.ipynb
 model = load("mlartifacts/260523122208174751/c53d44cc2d7541c3834b9919e49c66b2/artifacts/skl-svc-linear/model.pkl")
@@ -134,9 +135,23 @@ class TestScore(unittest.TestCase):
         assert "propensity" in data
 
         # Terminate the Flask app process
-        os.system("pkill -f python app.py")
+        os.system("pkill -2 python app.py")
     
 
 if __name__ == "__main__":
-    unittest.main()
-    
+    # Initialize coverage
+    cov = coverage()
+
+    # Start coverage measurement
+    cov.start()
+
+    # Run your tests
+    suite = unittest.TestLoader().loadTestsFromTestCase(testCaseClass=TestScore)
+    # Add your test cases to the suite
+    unittest.TextTestRunner().run(suite)
+
+    # Stop coverage measurement and generate report
+    cov.stop()
+    output = open('Coverage.txt', 'w')
+    cov.report(file=output,
+               show_missing=True)
