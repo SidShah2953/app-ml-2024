@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/8befa6d636b1423e9036134c1418e268/artifacts
+end_time: 1710234926358
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 8befa6d636b1423e9036134c1418e268
+run_name: defiant-mouse-800
+run_uuid: 8befa6d636b1423e9036134c1418e268
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710234898344
+status: 3
+tags: []
+user_id: sidshah

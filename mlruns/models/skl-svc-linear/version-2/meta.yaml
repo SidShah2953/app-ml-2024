@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1710234729546
+current_stage: None
+description: ''
+last_updated_timestamp: 1710234729546
+name: skl-svc-linear
+run_id: acfda8169be340ad865d3526e972de6a
+run_link: ''
+source: mlflow-artifacts:/260523122208174751/acfda8169be340ad865d3526e972de6a/artifacts/skl-svc-linear
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/260523122208174751/acfda8169be340ad865d3526e972de6a/artifacts/skl-svc-linear
+user_id: null
+version: 2

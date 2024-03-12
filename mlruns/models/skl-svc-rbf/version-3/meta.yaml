@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1710234847555
+current_stage: None
+description: ''
+last_updated_timestamp: 1710234847555
+name: skl-svc-rbf
+run_id: 5b9cb2c496ac4503a99c416ab9552f23
+run_link: ''
+source: mlflow-artifacts:/260523122208174751/5b9cb2c496ac4503a99c416ab9552f23/artifacts/skl-svc-rbf
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/260523122208174751/5b9cb2c496ac4503a99c416ab9552f23/artifacts/skl-svc-rbf
+user_id: null
+version: 3

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/c53d44cc2d7541c3834b9919e49c66b2/artifacts
+end_time: 1710234711768
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: c53d44cc2d7541c3834b9919e49c66b2
+run_name: nebulous-kite-529
+run_uuid: c53d44cc2d7541c3834b9919e49c66b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710234695108
+status: 3
+tags: []
+user_id: sidshah

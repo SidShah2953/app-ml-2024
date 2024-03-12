@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/2b14279e5eb9401b9db8c5160d078ad3/artifacts
+end_time: 1710234311804
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 2b14279e5eb9401b9db8c5160d078ad3
+run_name: sincere-gnu-989
+run_uuid: 2b14279e5eb9401b9db8c5160d078ad3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710234296606
+status: 4
+tags: []
+user_id: sidshah

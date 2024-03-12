@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/7962c62ca230403688057f5eff5c64c4/artifacts
+end_time: 1710234898340
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 7962c62ca230403688057f5eff5c64c4
+run_name: caring-chimp-106
+run_uuid: 7962c62ca230403688057f5eff5c64c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710234877212
+status: 3
+tags: []
+user_id: sidshah

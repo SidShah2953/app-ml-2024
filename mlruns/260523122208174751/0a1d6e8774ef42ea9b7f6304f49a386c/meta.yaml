@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/0a1d6e8774ef42ea9b7f6304f49a386c/artifacts
+end_time: 1710234758996
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: 0a1d6e8774ef42ea9b7f6304f49a386c
+run_name: resilient-skink-127
+run_uuid: 0a1d6e8774ef42ea9b7f6304f49a386c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710234744529
+status: 3
+tags: []
+user_id: sidshah

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/ade5d4df090743cba41b0ebc05b8fbf1/artifacts
+end_time: 1710234789309
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: ade5d4df090743cba41b0ebc05b8fbf1
+run_name: delicate-jay-474
+run_uuid: ade5d4df090743cba41b0ebc05b8fbf1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710234759000
+status: 3
+tags: []
+user_id: sidshah

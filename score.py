@@ -1,5 +1,13 @@
 import sklearn
-from sklearn.preprocessing import TextVectorizer
+from helper import TfidfVectorizer
+import pandas as pd
+
+train = pd.read_csv('Data/train.csv',
+                       header=0)
+train = train.dropna()
+msg_train = train['content']
+
+tfidf = TfidfVectorizer(data=msg_train)
 
 
 def score(text: str,
@@ -19,8 +27,8 @@ def score(text: str,
     """
     
     # Preprocess the text
-    vectorizer = TextVectorizer()
-    text_vector = vectorizer.fit_transform([text])
+    
+    text_vector = tfidf.tfidf_vector(text)
 
     # Make the prediction
     propensity = model.predict_proba(text_vector)[0][1]  # Assuming binary classification

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/260523122208174751/aa80d4678e58450db780c723092dfe14/artifacts
+end_time: 1710234744525
+entry_point_name: ''
+experiment_id: '260523122208174751'
+lifecycle_stage: active
+run_id: aa80d4678e58450db780c723092dfe14
+run_name: clean-lamb-84
+run_uuid: aa80d4678e58450db780c723092dfe14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710234729554
+status: 3
+tags: []
+user_id: sidshah
