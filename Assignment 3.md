@@ -26,9 +26,11 @@
     - [x] On an obvious spam input text is the prediction 1?
     - [x] On an obvious non-spam input text is the prediction 0?
 - Flask serving:
-  - In `app.py`, create a flask endpoint/score that receives a text as a `POST` request and gives a response in the `json` format consisting of prediction and propensity
-  - In `test.py`, write an integration test function `test_flask(...)` that does the following:
-    - Launches the flask app using command line (e.g. use os.system)
-    - Test the response from the localhost endpoint
-    - Closes the flask app using command line
-    - In `coverage.txt` produce the coverage report output of the unit test and integration test using `pytest`
+  - In `app.py`"
+    - [x] Create a flask endpoint/score that receives a text as a `POST` request and gives a response in the `json` format consisting of prediction and propensity
+  - In `test.py`,
+    Write an integration test function `test_flask(...)` that does the following:
+    - [x] Launches the flask app using command line (e.g. use os.system)
+    - [x] Test the response from the localhost endpoint
+    - [x] Closes the flask app using command line
+    - [ ] In `coverage.txt` produce the coverage report output of the unit test and integration test using `pytest`
