@@ -40,14 +40,22 @@ class TestScore(unittest.TestCase):
 
     def test_threshold_zero(self):
         """Tests if prediction is always 1 with a threshold of 0."""
-        text = "This is a test text."
-        prediction, _ = score(text, model, 0.0)
+        threshold = 0.0
+        spam_text = "FREE STOCKS! Click here!"
+        prediction, _ = score(spam_text, model, threshold)
+        self.assertEqual(prediction, True)
+        non_spam_text = "Thank you for your email. We will get back to you soon."
+        prediction, _ = score(non_spam_text, model, threshold)
         self.assertEqual(prediction, True)
 
     def test_threshold_one(self):
         """Tests if prediction is always 0 with a threshold of 1."""
-        text = "This is a test text."
-        prediction, _ = score(text, model, 1.0)
+        threshold = 1.0
+        spam_text = "FREE STOCKS! Click here!"
+        prediction, _ = score(spam_text, model, threshold)
+        self.assertEqual(prediction, False)
+        non_spam_text = "Thank you for your email. We will get back to you soon."
+        prediction, _ = score(non_spam_text, model, threshold)
         self.assertEqual(prediction, False)
 
     def test_spam_text(self):
