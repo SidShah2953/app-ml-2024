@@ -33,4 +33,4 @@
     - [x] Launches the flask app using command line (e.g. use os.system)
     - [x] Test the response from the localhost endpoint
     - [x] Closes the flask app using command line
-    - [ ] In `coverage.txt` produce the coverage report output of the unit test and integration test using `pytest`
+    - [x] In `coverage.txt` produce the coverage report output of the unit test and integration test using `pytest`
