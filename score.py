@@ -10,9 +10,7 @@ msg_train = train['content']
 tfidf = TfidfVectorizer(data=msg_train)
 
 
-def score(text: str,
-          model: sklearn.estimator,
-          threshold: float):
+def score(text, model, threshold):
     """Scores a text using the given model and returns prediction and propensity.
 
     Arguements:
@@ -28,12 +26,12 @@ def score(text: str,
     
     # Preprocess the text
     
-    text_vector = tfidf.tfidf_vector(text)
+    text_vector = tfidf.tfidf_vector([text])
 
     # Make the prediction
     propensity = model.predict_proba(text_vector)[0][1]  # Assuming binary classification
 
     # Apply the threshold
-    prediction = propensity > threshold
+    prediction = bool(propensity > threshold)
 
     return prediction, propensity

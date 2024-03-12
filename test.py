@@ -1,10 +1,9 @@
 import unittest
 from score import score
-from sklearn.svm import SVC  # Assuming SVC model from train.ipynb
-from joblib import load  # Assuming joblib for model loading
+from joblib import load
 
 # Load the best model from train.ipynb
-model = load("best_model.pkl")  # Replace "best_model.pkl" with your actual filename
+model = load("mlartifacts/260523122208174751/c53d44cc2d7541c3834b9919e49c66b2/artifacts/skl-svc-linear/model.pkl")
 
 class TestScore(unittest.TestCase):
 
@@ -53,7 +52,7 @@ class TestScore(unittest.TestCase):
 
     def test_spam_text(self):
         """Tests if the prediction is 1 for obvious spam text."""
-        spam_text = "FREE Viagra! Click here!"
+        spam_text = "FREE STOCKS! Click here!"
         prediction, _ = score(spam_text, model, 0.5)
         self.assertTrue(prediction)  # Adjust assertion based on your model
 
@@ -63,5 +62,5 @@ class TestScore(unittest.TestCase):
         prediction, _ = score(non_spam_text, model, 0.5)
         self.assertFalse(prediction)  # Adjust assertion based on your model
 
-    if __name__ == "__main__":
-        unittest.main()
+if __name__ == "__main__":
+    unittest.main()
