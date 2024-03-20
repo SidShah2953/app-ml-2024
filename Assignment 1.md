@@ -6,7 +6,7 @@
 - In `prepare.ipynb`, write the functions to:
   - load the data from a given file path
   - preprocess the data (if needed)
-  - split the data into train/validation/test 
+  - split the data into train/validation/test
   - store the splits at train.csv/validation.csv/test.csv
 - In `train.ipynb` write the functions to:
   - fit a model on train data
@@ -21,7 +21,7 @@
 
 ## Notes
 
-1. You may download the email spam data from: https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset
-2. You may refer to https://radimrehurek.com/data_science_python/ for building a prototype. 
-3. You may refer to first 3 chapters of https://www.statlearning.com/ for basic ML concepts.
+1. You may download the email spam data from: <https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset>
+2. You may refer to <https://radimrehurek.com/data_science_python/> for building a prototype.
+3. You may refer to first 3 chapters of <https://www.statlearning.com/> for basic ML concepts.
 4. You may refer to the Solution Design example covered in the class as a guideline for the experiment design.

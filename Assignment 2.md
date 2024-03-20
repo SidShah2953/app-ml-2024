@@ -16,9 +16,9 @@
 
 ## References
 
-- https://dvc.org/doc/start/data-management/data-versioning
-- https://realpython.com/python-data-version-control/
-- https://towardsdatascience.com/how-to-manage-files-in-google-drive-with-python-d26471d91ecd
-- https://mlflow.org/docs/latest/tracking.html
-- https://www.datarevenue.com/en-blog/how-we-track-machine-learning-experiments-with-mlflow
-- https://towardsdatascience.com/experiment-tracking-with-mlflow-in-10-minutes-f7c2128b8f2c
+- <https://dvc.org/doc/start/data-management/data-versioning>
+- <https://realpython.com/python-data-version-control/>
+- <https://towardsdatascience.com/how-to-manage-files-in-google-drive-with-python-d26471d91ecd>
+- <https://mlflow.org/docs/latest/tracking.html>
+- <https://www.datarevenue.com/en-blog/how-we-track-machine-learning-experiments-with-mlflow>
+- <https://towardsdatascience.com/experiment-tracking-with-mlflow-in-10-minutes-f7c2128b8f2c>
