@@ -1,0 +1,22 @@
+FROM python:3.11-slim  
+
+WORKDIR /app
+
+COPY docker_requirements.txt .
+RUN pip install -r docker_requirements.txt
+RUN python -m textblob.download_corpora
+
+COPY app.py .
+
+# helper.py needed for helper functions
+COPY helper.py .
+# Needed to make the TFIDF Vectorizer
+COPY Data/train.csv /app/Data/train.csv
+# Needed to load the trained model
+COPY mlartifacts/260523122208174751/c53d44cc2d7541c3834b9919e49c66b2/artifacts/skl-svc-linear/model.pkl /app/mlartifacts/260523122208174751/c53d44cc2d7541c3834b9919e49c66b2/artifacts/skl-svc-linear/model.pkl
+
+COPY score.py .
+
+EXPOSE 8000  
+
+CMD ["python", "app.py"]

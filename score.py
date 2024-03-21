@@ -1,4 +1,3 @@
-import sklearn
 from helper import TfidfVectorizer
 import pandas as pd
 

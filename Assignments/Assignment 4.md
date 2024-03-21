@@ -4,11 +4,11 @@
 
 - Containerization: Create a docker container for the flask app created in Assignment 3
   - Create a Dockerfile which contains the instructions to build the container, which include
-    - [ ] installing the dependencies
-    - [ ] Copying `app.py` and `score.py`
-    - [ ] launching the app by running “python app.py” upon entry
-  - [ ] Build the docker image using Dockerfile
-  - [ ] Run the docker container with appropriate port bindings
+    - [x] installing the dependencies
+    - [x] Copying `app.py` and `score.py`
+    - [x] launching the app by running “python app.py” upon entry
+  - [x] Build the docker image using Dockerfile
+  - [x] Run the docker container with appropriate port bindings
   - In `test.py` write `test_docker(..)` function which does the following:
     - [ ] Launches the docker container using commandline (e.g. `os.sys(..)`, docker build and docker run)
     - [ ] Sends a request to the localhost endpoint `/score` (e.g. using requests library) for a sample text
