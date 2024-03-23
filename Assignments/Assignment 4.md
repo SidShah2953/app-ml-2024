@@ -16,8 +16,8 @@
     - [ ] Close the docker container
   - In `coverage.txt`, produce the coverage report using pytest for the tests in `test.py`
 - Continuous Integration:
-  - Write a pre-commit git hook that will run the `test.py` automatically every time you try to commit the code to your local ‘main’ branch
-  - Copy and push this pre-commit git hook file to your git repo
+  - [x] Write a pre-commit git hook that will run the `test.py` automatically every time you try to commit the code to your local ‘main’ branch
+  - [x] Copy and push this pre-commit git hook file to your git repo
 
 ## References
 
