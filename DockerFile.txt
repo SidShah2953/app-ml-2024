@@ -17,6 +17,6 @@ COPY mlartifacts/260523122208174751/c53d44cc2d7541c3834b9919e49c66b2/artifacts/s
 
 COPY score.py .
 
-EXPOSE 8000  
+EXPOSE 8000
 
 CMD ["python", "app.py"]

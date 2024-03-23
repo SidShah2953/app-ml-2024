@@ -138,6 +138,42 @@ class TestScore(unittest.TestCase):
         os.system("pkill -2 python app.py")
     
 
+    def test_docker(self):
+        """
+        Integration test to: 
+        - Launch the docker container docker build and docker run
+        - Send a request to the localhost endpoint `/score` for a sample text
+        - Check if the response is as expected
+        - Close the docker container
+        """
+        import time
+
+        # Launch the Flask app in a separate process
+        docker_file_path =  "/Users/sidshah/Library/Mobile Documents/com~apple~CloudDocs/Projects/Semester 6/AML - Applied Machine Learning/app-ml-2024/DockerFile.txt"
+        run_comm = f'docker build -f "{docker_file_path}" -t sidshah2953/aml .'
+        os.system(run_comm)
+        
+        os.system("docker run -t sidshah2953/aml")
+
+        # Send a POST request with some text data
+        data = json.dumps({"text": "This is some spam text"})
+        response = requests.post("http://0.0.0.0:8000/score",
+                                 json=data,
+                                 timeout=5)
+        
+        assert response.status_code == 200
+
+        # Parse response JSON
+        data = json.loads(response.text)
+
+        # Check for presence of prediction and propensity keys
+        assert "prediction" in data
+        assert "propensity" in data
+        import signal
+        # Terminate the Flask app process
+        os.kill(os.getppid(), signal.SIGTERM)
+
+
 if __name__ == "__main__":
     # Initialize coverage
     cov = coverage()
