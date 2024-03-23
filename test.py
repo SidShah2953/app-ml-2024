@@ -11,7 +11,6 @@ from coverage import coverage
 model = load("mlartifacts/260523122208174751/c53d44cc2d7541c3834b9919e49c66b2/artifacts/skl-svc-linear/model.pkl")
 
 class TestScore(unittest.TestCase):
-
     def test_smoke_test(self):
         """
         Tests if the score function runs without crashing.
@@ -146,20 +145,17 @@ class TestScore(unittest.TestCase):
         - Check if the response is as expected
         - Close the docker container
         """
-        import time
-
         # Launch the Flask app in a separate process
         docker_file_path =  "/Users/sidshah/Library/Mobile Documents/com~apple~CloudDocs/Projects/Semester 6/AML - Applied Machine Learning/app-ml-2024/DockerFile.txt"
         run_comm = f'docker build -f "{docker_file_path}" -t sidshah2953/aml .'
         os.system(run_comm)
         
-        os.system("docker run -t sidshah2953/aml")
+        os.system("docker run -p 8000:8000 -t sidshah2953/aml")
 
         # Send a POST request with some text data
         data = json.dumps({"text": "This is some spam text"})
-        response = requests.post("http://0.0.0.0:8000/score",
-                                 json=data,
-                                 timeout=5)
+        response = requests.post("http://127.0.0.1:8000/score",
+                                 json=data)
         
         assert response.status_code == 200
 
