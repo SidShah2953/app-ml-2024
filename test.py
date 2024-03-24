@@ -118,11 +118,11 @@ class TestScore(unittest.TestCase):
         os.system(run_comm + " &> /dev/null &")
         
         import time
-        time.sleep(1)
+        time.sleep(10)
 
         # Send a POST request with some text data
         data = json.dumps({"text": "This is some spam text"})
-        response = requests.post("http://localhost:8000/score", json=data)
+        response = requests.post("http://127.0.0.1:8000/score", json=data)
         
         assert response.status_code == 200
 
@@ -150,8 +150,12 @@ class TestScore(unittest.TestCase):
         run_comm = f'docker build -f "{docker_file_path}" -t sidshah2953/aml .'
         os.system(run_comm)
         
-        os.system("docker run -p 8000:8000 -t sidshah2953/aml")
-
+        # Runs the docker container in a separate thread
+        os.system("docker run -p 8000:8000 -t sidshah2953/aml &> /dev/null &")
+        
+        # Wait for docker container to start
+        import time
+        time.sleep(10)
         # Send a POST request with some text data
         data = json.dumps({"text": "This is some spam text"})
         response = requests.post("http://127.0.0.1:8000/score",
@@ -165,9 +169,9 @@ class TestScore(unittest.TestCase):
         # Check for presence of prediction and propensity keys
         assert "prediction" in data
         assert "propensity" in data
-        import signal
-        # Terminate the Flask app process
-        os.kill(os.getppid(), signal.SIGTERM)
+        
+        # Stop all docker containers
+        os.system("docker stop $(docker ps -a -q)")
 
 
 if __name__ == "__main__":
@@ -185,5 +189,4 @@ if __name__ == "__main__":
     # Stop coverage measurement and generate report
     cov.stop()
     output = open('Coverage.txt', 'w')
-    cov.report(file=output,
-               show_missing=True)
+    cov.report(file=output)
